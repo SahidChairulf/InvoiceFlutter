@@ -41,6 +41,8 @@ class PaymentController extends GetxController {
       final ageValue = currentDate.year - birthDate.year + (currentDate.month > birthDate.month || (currentDate.month == birthDate.month && currentDate.day >= birthDate.day) ? 0 : -1);
       // Set nilai umur
       age.value = ageValue.toString();
+
+      // Experied Date
     }
   }
 
